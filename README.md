@@ -1,17 +1,17 @@
-#vlib
+# vlib
 Lua bindings for the V programming language.
 
-#What versions of Lua are supported?
+# What versions of Lua are supported?
 Versions 5.1, 5.2, 5.3, and JIT 2 are planned, and initial work has been done, but 5.3 is the only one in a usable state. 5.3 may be the only supported versions until V makes C compatibility better. Right now there are unfavorable workarounds and issues.
 
-#How much of the C API is supported?
+# How much of the C API is supported?
 99% of the API is there, but some aren't due to issues, mainly:
 1. lua_pushfstring and luaL_error due to V not entirely handling variadic arguments well.
 2. lua_pushliteral due to some kind of compiler issue.
 3. luaL_opt due to not knowing how to implement it.
-######This section only applies to vlib53 as the others are not suitable for use.
+###### This section only applies to vlib53 as the others are not suitable for use.
 
-#Examples & Install
+# Examples & Install
 1. Download the source files and put which version you want into your V project folder.
 
 2. Download the Lua binaries (or compile them yourself) and place them in a folder in your V project.
