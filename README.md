@@ -1,3 +1,6 @@
+#vlib
+Lua bindings for the V programming language.
+
 #What versions of Lua are supported?
 Versions 5.1, 5.2, 5.3, and JIT 2 are planned, and initial work has been done, but 5.3 is the only one in a usable state. 5.3 may be the only supported versions until V makes C compatibility better. Right now there are unfavorable workarounds and issues.
 
