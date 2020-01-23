@@ -9,6 +9,8 @@ Versions 5.1, 5.2, 5.3, and JIT 2 are planned, and initial work has been done, b
 1. lua_pushfstring and luaL_error due to V not entirely handling variadic arguments well.
 2. lua_pushliteral due to some kind of compiler issue.
 3. luaL_opt due to not knowing how to implement it.
+
+The rest of the API should work as intended, although there may be unencountered edge cases due to type conversions. eg. lua_Integer -> i64
 ###### This section only applies to vlib53 as the others are not suitable for use.
 
 # How reliable is are the bindings?
