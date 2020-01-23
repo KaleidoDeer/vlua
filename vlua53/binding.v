@@ -779,12 +779,12 @@ pub fn lual_openlibs(L &C.lua_State) {
 	C.luaL_openlibs(L)
 }
 //pub fn lual_opt(L &C.lua_State, arg, d int) int not sure about translation
-/*
+
 [inline]
 pub fn lual_optinteger(L &C.lua_State, arg int, d i64) i64 {
 	return C.luaL_optinteger(L, arg, d)
 }
-*/
+
 [inline]
 pub fn lual_optlstring(L &C.lua_State, arg int, d byteptr, lt &size_t) byteptr {
 	return C.luaL_optlstring(L, arg, d, lt)
