@@ -13,7 +13,7 @@ Versions 5.1, 5.2, 5.3, and JIT 2 are planned, and initial work has been done, b
 The rest of the API should work as intended, although there may be unencountered edge cases due to type conversions. eg. lua_Integer -> i64. Your usual constants such as `LUA_OK` are also available to you.
 ###### This section only applies to vlib53 as the others are not suitable for use.
 
-# How reliable is are the bindings?
+# How reliable are the bindings?
 V is a relatively new programming language thats still in its infancy. By extension these bindings may not always work as expected due to unforeseen behavior in the compiler, or an update to V changes how the bindings need to be written. I will continue to try and support these bindings as V evolves. Feel free to report any issues.
 
 # Examples & Install
