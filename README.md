@@ -1,4 +1,4 @@
-# vlib
+# vlua
 Lua bindings for the V programming language.
 
 # What versions of Lua are supported?
